@@ -15,7 +15,7 @@ function App() {
 	return (
 		<div className="app">
 			<h1>Hi there!</h1>
-			<DemoOutput show={showParagraphs} />
+			<DemoOutput show={false} />
 			<Button onClick={tooglePararagphs}>Click me!</Button>
 		</div>
 	);
